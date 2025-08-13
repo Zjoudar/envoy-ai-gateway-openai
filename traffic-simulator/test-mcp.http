@@ -1,0 +1,10 @@
+### Health Check
+GET http://localhost/mcp/health
+
+### MCP to OpenAI Proxy
+POST http://localhost/mcp/proxy-to-openai
+Content-Type: application/json
+
+{
+  "prompt": "Translate to French: Hello world"
+}
