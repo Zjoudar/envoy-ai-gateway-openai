@@ -1,8 +1,0 @@
-POST http://localhost:8080/openai/chat/completions
-Authorization: Bearer {{OPENAI_API_KEY}}
-Content-Type: application/json
-
-{
-  "model": "gpt-4",
-  "messages": [{"role": "user", "content": "Hello"}]
-}
