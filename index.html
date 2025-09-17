@@ -1,0 +1,80 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Research Assistant</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .container { border: 1px solid #ddd; padding: 20px; border-radius: 10px; }
+        input, select, textarea { width: 100%; padding: 10px; margin: 10px 0; }
+        button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        #result { margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 5px; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI-Powered Research Assistant</h1>
+        <p>Upload legal or medical documents for analysis</p>
+        
+        <form id="uploadForm">
+            <div>
+                <label>Document Type:</label>
+                <select name="doc_type" required>
+                    <option value="legal">Legal Document</option>
+                    <option value="medical">Medical Document</option>
+                </select>
+            </div>
+            
+            <div>
+                <label>Upload PDF:</label>
+                <input type="file" name="file" accept=".pdf" required>
+            </div>
+            
+            <div>
+                <label>Query:</label>
+                <textarea name="query" rows="3" placeholder="What would you like to know about this document?" required></textarea>
+            </div>
+            
+            <button type="submit">Analyze Document</button>
+        </form>
+        
+        <div id="result" style="display: none;"></div>
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const resultDiv = document.getElementById('result');
+            
+            resultDiv.style.display = 'block';
+            resultDiv.innerHTML = 'Analyzing document...';
+            
+            try {
+                const response = await fetch('/analyze', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    resultDiv.innerHTML = `Error: ${data.error}`;
+                } else {
+                    resultDiv.innerHTML = `
+                        <strong>Document Type:</strong> ${data.doc_type}
+                        <strong>Query:</strong> ${data.query}
+                        <hr>
+                        <strong>Analysis:</strong>
+                        ${data.analysis}
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `Error: ${error.message}`;
+            }
+        });
+    </script>
+</body>
+</html>
