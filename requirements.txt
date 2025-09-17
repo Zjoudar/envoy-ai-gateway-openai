@@ -1,0 +1,4 @@
+flask==2.3.3
+groq==0.3.0
+pymupdf==1.23.0
+python-dotenv==1.0.0
