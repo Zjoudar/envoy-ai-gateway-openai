@@ -1,0 +1,10 @@
+
+google-cloud-bigquery
+google-cloud-storage
+google-cloud-run
+google-cloud-appengine
+google-cloud-sql
+google-genai
+dnspython
+python-dotenv
+google-auth

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "carbon-helix-474615-b7",
+  "private_key_id": "515d67b24477dd2b8c79e641dee4cdc2a1813b0e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJIhAc7ZNDTmgC\nZuQsDbP+hRgHUr1UEVt2gxLHZt79q0Vwxiqvr/gWP2+YXCqnHkTvOFvSoPPU1TXl\nv4+/3vVn3EreD0nxt6cGhXNaemE+uFrLznxoKLOzvkW35DlM5ZmOon5ESMTfWJVU\nQ0HFYEvtOQ34jWDPAAWhumyT+OdZYIgxNP/hEVhu4B7DGsv2coqIwi7hIpseXjp+\ndQTl5xgREG3GkWfQQMDJtzE2WBSTzlYrRWV4h7ZGpCyXJEt4B0OhMBGobJttgX1r\nR4SJ25VY/qpgqUzOTOBPMqxO2dRcQreJDiVy7dnEhbFLMuYrerYrbjP8HdUWua/L\nHhhabIyzAgMBAAECggEANfcdu6VCzdxLq9lPf0Jt+Oxc9hoNEnFVyQaCE15WlllN\n2GRTL7BXMCD1IDwadZx5gnXsrSbiRUivnWU4fJKl5agFrm8Lt/8+oVFNEgmj7eAo\n/GX6mzfQf3md2ykw9qDkApE2r7uWlxZ9eo5RJ1QfCxcz2GyWfPPUjwAmAc3WxPPX\nnRvnBelkLBBGfUrDBMQ+EzKY1XZWE/eV9xUWHakCW+nl2KxjzE1uAGhTtkMJNfU3\njWZn9eFLm43vse/6j5qlLxKKVPut/ItE0+Rt/zDx/R0uyu6F3C32EijkIJK+rbEF\nFz3qNfc+9X0yEzxusu/fuG7ewGvM8HSCAG7MvpBYAQKBgQDwl41cHlyKDJSFayTc\nmIWVa26BzvMGDigII8lcM66Tz83ta8VvSpSiPckXxi+bykKAAJNs5isbJ8b4HMSg\nmNt2fQk72efdD+tfCiEUgJvss6sgkCNzZ5n9dJLtOpslJffGkUtq3lURTBWR5I1F\nu6X3ntuTI7xGzJ302lX2SJT6QQKBgQDWA5dGF7kV0RwK0gClTJUZHJ5GOkNycDdz\nIXCIgrbE8Lek43/Z4W600uJkdwxLO7WRpQSWF7N4dWDifD3xObVmCmp7yF/lYS29\n9Hc9b4Y43QLEoUZ6cG00YYLFOwuugcT1+OGwRk7epa8jlmvUZDRxjuw0ifW+VFYp\ng8EvnljB8wKBgQDqXaeNgeIBdInFgf7xiP4v9Ow8NT2Vu3qRm1LOp2W7hWWDj0VP\nyWYKuYdHyn6cEyY+jNEP9xMsq83t6hA8pUq8HMc+72Enfhd5iGN7FmFN7iOYX/C4\nvcZLGSD7SOjTAi5g1y6RVy2k4OnuKabYtBfTpIMezWPdz/tbBslQVZoSQQKBgQDL\n8/AeJE2GtRl8VlW3MhyFKfjMBIpybO7rEVslPSzg0maxBP26rlPKj46hH7Lfn6+R\ndSnBwCSRD4udS7ncQZrV++cuv+5jsxDcjjV0nuvTFQymRuvbk3j/Ck6Nl4+yZolF\nwEGUs+xF0q/twlRQvI4eCo6gIznGgKj8N0vMDaOYcQKBgGpwtA8BwjOPBM8MWIgE\nr7basweEg1JCLp3a33ELb+dzjkQ5V96AnQH0Z/BGVnD+bzpUT916gydfGzvOmKfL\nzIHlLtE/WJnR3FeOL4gT2CLlC+1zWktXLykvGoXA28+P3Uk3mDsiK/O8t1Cc/mfc\n+dpje5+2fC6jkA4SvQIYu8ZK\n-----END PRIVATE KEY-----\n",
+  "client_email": "azer-835@carbon-helix-474615-b7.iam.gserviceaccount.com",
+  "client_id": "113345721932201673721",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/azer-835%40carbon-helix-474615-b7.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
